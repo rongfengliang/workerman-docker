@@ -15,3 +15,9 @@ docker-compose up -d
 ```code
 open http://localhost:2345
 ```
+
+## run with builded image
+
+```code
+docker run -d -p 2345:2345 dalongrong/workerman:3.5.22
+```

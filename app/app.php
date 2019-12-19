@@ -4,7 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Workerman\Worker;
 
 // #### http worker ####
-$http_worker = new Worker("http://0.0.0.0:2345");
+$http_worker = new Worker("http://0.0.0.0:2346");
 
 // 4 processes
 $http_worker->count = 4;
