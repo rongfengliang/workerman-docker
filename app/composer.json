@@ -1,0 +1,13 @@
+{
+    "description": "demoapp",
+    "name": "dalong/app",
+    "authors": [
+        {
+            "name": "rongfengliang",
+            "email": "1141591465@qq.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "^3.5"
+    }
+}
